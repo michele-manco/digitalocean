@@ -1,0 +1,498 @@
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+.navbar{
+  height: 105px;
+  background-color: white;
+  display: block;
+  border: 2px  outset white;
+}
+.upper_nav{
+  height: 40px;
+  border-bottom: 1px  #e5e8ed;
+}
+
+.upper_left{
+  height: 39px;
+}
+.my-btn-primary{
+  background-color: #5ed8d2;
+  border-radius: 5px;
+  font-size: 8px;
+  font-weight:bold;
+  border: none;
+  margin: 8px;
+  color: #324bd2;
+  margin-left: 30px;
+}
+.my-btn-link::after{
+  content: ">";
+  padding-left: 5px;
+}
+.my-btn-link:hover{
+  color: #0467f6;
+  text-decoration: none;
+
+}
+.my-btn-link{
+  color: grey;
+  font-size: 12px;
+  font-weight: 400;
+}
+.upper_right{
+  height: 39px;
+}
+.smallmenu li{
+  font-size: 12px;
+  line-height: 39px;
+
+}
+.smallmenu a{
+  color: grey;
+}
+.smallmenu a:hover{
+  color: #0467f6;
+  text-decoration: none;
+}
+
+.downer_left{
+  height: 65px;
+
+}
+
+.my_logo {
+  height: 30px;
+  margin-left: 30px;
+  line-height: 65px;
+}
+.bigmenu{
+  display: inline-block;
+  line-height: 65px;
+  margin-left: 40px;
+  padding-bottom: 8px;
+}
+.bigmenu a:hover{
+  color: #0467f6;
+  text-decoration: none;
+
+}
+.bigmenu a{
+  color: black;
+  text-decoration: none;
+  font-weight: normal;
+
+}
+.downer_right{
+  height: 65px;
+
+}
+.my-btn-outline-primary{
+  border-color: #0467f6;
+  color: #0467f6;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-right: 20px;
+  background-color: white;
+}
+/* end navbar */
+
+/* jumbotron */
+
+.jumbotron{
+  background-image: url(https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg);
+  margin-bottom:0px;
+
+}
+.container{
+
+
+}
+
+.text-wrapper{
+  background-color: #52b67e;
+
+  margin-top: 90px;
+  margin-right: 0px;
+  text-align: center;
+  border-radius: 3px;
+  text-decoration: none;
+}
+.text-wrapper a:hover{
+  text-decoration: none;
+}
+.text-wrapper a{
+  color: white;
+  line-height: 40px;
+  font-size: 16px;
+}
+.screamer{
+  color: white;
+
+  margin-top: 100px;
+
+}
+.screamer h1{
+  font-weight: bold;
+  font-size: 55px;
+}
+.screamer p{
+  margin-top: 30px;
+  padding-right: 20px;
+}
+.form1 h3{
+  font-weight: bold;
+  padding-top: 15px;
+  font-size: 28px;
+
+}
+.form1{
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 60px;
+  height: 540px;
+  text-align: center;
+  padding-right: 30px;
+
+}
+.form-group {
+  width: 445px;
+
+  margin-left: 10px;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 10px;
+  margin-left: 0px;
+  padding-left: 0px;
+  position: relative;
+}
+.form-control{
+  width: 350px;
+  margin-left: 0px;
+  padding-left: 10px;
+  height: 40px;
+}
+.my_btn-primary{
+  width: 350px;
+  background-color: #0467f6;
+  margin-left: 75px;
+}
+.col-form-label{
+  height: 40px;
+}
+.form1 p::after {
+  content: "-";
+  width: 20px;
+}
+.form1 p::before{
+  content: "-";
+}
+.my_google:hover{
+  background-color: #d5e4f7;
+}
+
+.my_google{
+  border: 1px solid #0467f6;
+  background-color: rgb(242,248,254);
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+
+}
+.my_git:hover{
+  background-color: #d5e4f7;
+
+}
+.my_git{
+  border: 1px solid #0467f6;
+  background-color: rgb(242,248,254);
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  position: absolute;
+  right:0px;
+}
+.form-group i{
+  font-size: 22px;
+}
+/* end jumbotron */
+
+/* sec partners */
+
+.partners{
+  height: 300px;
+  background-color: #f3f5f9;
+
+}
+.dec{
+  font-size: 16px;
+  font-weight: bold;
+  color: grey;
+  margin-top: 50px;
+  display: inline-block;
+}
+.partnerslist{
+  display: block;
+}
+.partnerslist img{
+  height: 74px;
+  max-width: 148px;
+}
+
+.partnerslist li{
+  padding-right: 35px;
+  margin-top: 30px;
+}
+.linko:hover{
+  text-decoration: none;
+}
+.linko{
+  font-weight: bold;
+}
+/* end jumbotron */
+
+/* deploy section */
+.dep{
+  margin-top: 30px;
+  padding-bottom: 20px;
+}
+.dep h2{
+  font-size: 32px;
+  font-weight: bold;
+  color: #031b4e;
+}
+.dep p{
+  font-size: 19px;
+  color: grey;
+}
+.my_ul{
+  margin-top: 40px;
+}
+.my_ul li{
+  margin: 0px;
+  font-size: 16px;
+  border-left: 2px solid grey;
+  padding-top: 20px;
+  color: #031b4e;
+}
+.my_ul a{
+    color: #031b4e;
+  text-decoration: none;
+
+}
+#deplo{
+  border-left: 2px solid #0467f6;
+}
+.my_my h2{
+  font-size: 20px;
+  font-weight: normal;
+}
+.my_my p{
+  font-size: 16px;
+}
+.my_my{
+  padding-top: 30px;
+  padding-right: 50px;
+
+}
+.my_my i{
+  color:#0467f6;
+}
+.des4dev {
+  background-color:#f3f5f9;
+}
+.des4dev h2{
+  font-size: 32px;
+  font-weight: bold;
+    color: #031b4e;
+}
+.des4dev p{
+  font-size: 19px;
+  color: grey;
+}
+.des4dev img{
+  margin-top: 30px;
+  display:block;
+}
+.dev{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.minimini{
+  font-size: 15px;
+  color: grey;
+  margin-top: 20px;
+  display:block;
+}
+.des4dev i{
+  color:#0467f6;
+  margin-bottom: 20px;
+}
+.my_build{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.built h2{
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 45px;
+    color: #031b4e;
+}
+.built h3{
+  font-weight: bold;
+  font-size: 18px;
+    color: #031b4e;
+}
+.built p{
+  font-size: 14px;
+  color: grey;
+}
+.built i{
+  color: #0467f6;
+
+}
+.built a{
+  text-decoration: none;
+  font-weight: bold;
+}
+/* end sec dev */
+/* map sec */
+.map{
+  background-color: #010e28;
+}
+
+.xmab{
+  /* background-image: url(https://thumbs.dreamstime.com/z/business-trip-banner-airplane-world-map-background-infographic-world-destination-travel-concept-vector-illustration-eps-118239282.jpg); */
+  background-image:
+linear-gradient(to bottom, rgba(35, 66, 255, 0.52), rgba(22, 19, 193, 0.93)),
+url('https://thumbs.dreamstime.com/z/business-trip-banner-airplane-world-map-background-infographic-world-destination-travel-concept-vector-illustration-eps-118239282.jpg');
+  filter: saturate(3);
+  height: 600px;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+.map h2{
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 45px;
+  padding:10px 190px 30px;
+  text-align: center;
+
+}
+
+.rocket h2{
+  text-align: center;
+    color: #031b4e;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 45px;
+    padding:10px 190px 30px;
+}
+.rocket p{
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.getta{
+  background-image: url(https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg);
+  text-align: center;
+
+}
+.getta h2{
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 45px;
+  padding:10px 190px 30px;
+  text-align: center;
+}
+.my_create{
+  color:#0467f6;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+/* end */
+/* footer */
+
+footer{
+  background-color: #010e28;
+}
+footer h4{
+  color: white;
+}
+.foota{
+  margin-top: 40px;
+}
+.new_ul a{
+  color: grey;
+}
+hr{
+  /* display: inline-block; */
+  height: 2px;
+  color: grey;
+}
+.revlog{
+  height: 30px;
+  margin-left: 0 auto;
+  margin-bottom: 10px;
+  display:inline-block;
+}
+.relogo p{
+  display: inline;
+  margin-bottom: 30px;
+}
+.logoli i{
+  float: right;
+  margin:10px;
+}
+@media screen and (max-width: 768px){
+  .getta{
+    width: 100%;
+  }
+  .relogo{
+    width: 100%;
+  }
+  .logoli{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 992px){
+  .navbar{
+    display: none;
+  }
+  .form-group{
+    width: 100%
+  }
+  .my_2_logo{
+    display: inline;
+    height: 30px;
+    margin-left: 30px;
+
+
+  }
+  .my_2_logo img{
+    color: white;
+  }
+  #my-mobile-menu a{
+    color: white;
+    font-size: 40px;
+  }
+  .partners{
+    height: 100%;
+  }
+  .dev{
+    width: 100%;
+  }
+  .des4dev img{
+  width: 100%
+  }
+  .map .xmab{
+    width: 100%;
+  }
+  .my_build{
+    width: 100%
+  }
+
+}
